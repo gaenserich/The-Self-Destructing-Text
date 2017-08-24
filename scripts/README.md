@@ -15,6 +15,6 @@ The `compile-vergil.sh` script processes one or more files containing text (e.g.
 
 ## 50words.sh
 The `50words.sh` script takes a directory containing plaintext files (e.g. each a page of **Der Tod des Vergil**) and outputs a report on a given pattern, such as “Zwischenreich.” It also produces a spreadsheet that arranges the most common words that appear within 50 words of the given pattern according the proportion of those instances that versus their overall appearance in Tod des Vergil. For instance, if “Nacht” appears 50 times in the novel overall, and 21 (42%) of those instances are within 50 words of “Zwischenreich,” the pattern “nacht” will appear as follows in the spreadsheet (TSV format):
-0.42 | 21 | nacht
+| 0.42 | 21 | nacht |
 
 Overall word counts are referenced from a TSV-format spreadsheet. Words that only appear once in the novel are excluded. To assist in pattern matching, capitalization is removed.
